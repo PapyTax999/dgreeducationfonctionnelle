@@ -1,0 +1,33 @@
+# Environnements virtuels
+env/
+venv/
+
+# Fichiers Python inutiles
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Fichiers/dossiers de logs ou d'exécution
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.DS_Store
+
+# Fichiers Django spécifiques
+db.sqlite3
+*.sqlite3
+
+# Paramètres personnels et secrets
+*.env
+.env
+
+# Dossiers générés
+/static/
+media/
+
+# VS Code, PyCharm etc.
+.vscode/
+.idea/
